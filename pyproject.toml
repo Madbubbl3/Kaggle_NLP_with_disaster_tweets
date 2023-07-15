@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "nlp-with-disaster-tweets"
+version = "0.1.0"
+description = ""
+authors = ["Madbubbl3 <hellinsylvain@gmail.com>"]
+readme = "README.md"
+packages = [{include = "nlp_with_disaster_tweets"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torchtext = "^0.15.2"
+pandas = "^2.0.3"
+jupyter = "^1.0.0"
+notebook = "^6.5.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
